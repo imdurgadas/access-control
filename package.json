@@ -27,7 +27,7 @@
     "@nestjs/typeorm": "^7.1.5",
     "casbin": "^5.7.1",
     "nest-authz": "^2.1.0",
-    "pg": "^8.6.0",
+    "pg": "8.7.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.3",
