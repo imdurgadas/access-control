@@ -1637,16 +1637,15 @@ capture-exit@^2.0.0:
   dependencies:
     rsvp "^4.8.4"
 
-casbin@5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/casbin/-/casbin-5.5.0.tgz#534e01abd768279612230972d878ebd0427ce1e9"
-  integrity sha512-Kow6Zv4PLLK18jJ/DRrwZKFS5MD+P4CgZadxWuWFSEOEFnXx0Pj0wrIMPaxxR9ZN9Js7ghzOm2Jbj/5qJ92rWA==
+casbin@^5.11.1:
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/casbin/-/casbin-5.14.0.tgz#d53f2ea2f39404123045291f6ca4fff538fd352e"
+  integrity sha512-hF7YJyKXs2u/CDTK73HLHdVLt9fxfPzMcwESz8HjUYj+6/vXqhJgHtHqQp871eX7J786P7KFxuuK/Pm9+eI8HA==
   dependencies:
     await-lock "^2.0.1"
     csv-parse "^4.15.3"
-    expression-eval "^2.0.0"
-    ip "^1.1.5"
-    micromatch "^4.0.2"
+    expression-eval "^4.0.0"
+    picomatch "^2.2.3"
 
 casbin@^5.2.0, casbin@^5.7.1:
   version "5.7.1"
@@ -2509,6 +2508,13 @@ expression-eval@^2.0.0:
   dependencies:
     jsep "^0.3.0"
 
+expression-eval@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/expression-eval/-/expression-eval-4.0.0.tgz#d6a07c93e8b33e635710419d4a595d9208b9cc5e"
+  integrity sha512-YHSnLTyIb9IKaho2IdQbvlei/pElxnGm48UgaXJ1Fe5au95Ck0R9ftm6rHJQuKw3FguZZ4eXVllJFFFc7LX0WQ==
+  dependencies:
+    jsep "^0.3.0"
+
 extend-shallow@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/extend-shallow/-/extend-shallow-2.0.1.tgz#51af7d614ad9a9f610ea1bafbb989d6b1c56890f"
@@ -3080,11 +3086,6 @@ interpret@^1.0.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==
-
-ip@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.5.tgz#bdded70114290828c0a039e72ef25f5aaec4354a"
-  integrity sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=
 
 ipaddr.js@1.9.1:
   version "1.9.1"
@@ -4195,12 +4196,12 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-nest-authz@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/nest-authz/-/nest-authz-2.1.0.tgz#71dd61d0483142c7815934027732398605e178d2"
-  integrity sha512-1W4kIfv/CUAc1eeNU5W1Spipmm+eLShAPxdhKywA72YiMK2vkhkOMxzCkLyfqt92jt99SAgYLunP3LGknWiSig==
+nest-authz@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/nest-authz/-/nest-authz-2.2.0.tgz#f14e267deef26320e14d4f4bcdee7e1df2fa56a7"
+  integrity sha512-73SR9q072k43XmNbYT4uXfdqAKdKN4853M6+WktyuNbGPggK5v10/4QSfxMIAkK10m6EW7UKdHixgvVOl8TEow==
   dependencies:
-    casbin "5.5.0"
+    casbin "^5.11.1"
 
 nice-try@^1.0.4:
   version "1.0.5"
