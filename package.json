@@ -24,7 +24,7 @@
     "@nestjs/common": "7.6.17",
     "@nestjs/core": "7.6.17",
     "@nestjs/platform-express": "7.6.17",
-    "@nestjs/typeorm": "7.1.5",
+    "@nestjs/typeorm": "8.0.3",
     "casbin": "5.7.1",
     "nest-authz": "2.1.0",
     "pg": "8.6.0",
