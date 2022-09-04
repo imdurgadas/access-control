@@ -1588,7 +1588,17 @@ caniuse-lite@^1.0.30001317:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001327.tgz#c1546d7d7bb66506f0ccdad6a7d07fc6d668c858"
   integrity sha512-1/Cg4jlD9qjZzhbzkzEaAC2JHsP0WrOc8Rd/3a3LuajGzGWR/hD7TVyvq99VqmTy99eVh8Zkmdq213OgvgXx7w==
 
-casbin@5.14.0, casbin@^5.11.1, casbin@^5.11.5:
+casbin@5.16.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/casbin/-/casbin-5.16.0.tgz#32c5a617c33aef72aecb7fbdbde9017a7fb8ef11"
+  integrity sha512-sQh7860fG7VAhTyk2uqOlrVjxWUfEL9n5F/IswJlVRjMgEjIJqgM0nXoaMQieEc8cU+hVERJcCqQiRXdiFXTeQ==
+  dependencies:
+    await-lock "^2.0.1"
+    csv-parse "^4.15.3"
+    expression-eval "^4.0.0"
+    picomatch "^2.2.3"
+
+casbin@^5.11.1, casbin@^5.11.5:
   version "5.14.0"
   resolved "https://registry.yarnpkg.com/casbin/-/casbin-5.14.0.tgz#d53f2ea2f39404123045291f6ca4fff538fd352e"
   integrity sha512-hF7YJyKXs2u/CDTK73HLHdVLt9fxfPzMcwESz8HjUYj+6/vXqhJgHtHqQp871eX7J786P7KFxuuK/Pm9+eI8HA==
